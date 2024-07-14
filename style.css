@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #b69da4;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: rgb(247, 55, 71); */
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(0, 217, 255);
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #4d40404b;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(55, 247, 151); */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background: rgb(209, 115, 115); */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 75px;
+    color: white;
+    text-transform: uppercase;
+}
+#small-img{
+    height: 340px;
+    width: 240px;
+    background-color: pink;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -51.5%;
+    transform-origin: 0% 0%;
+    top: -6%;
+}
+#vertical-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+#navbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 7%;
+    top: 5%;
+    /* background-color: blue; */
+}
+#navbar img{
+    height:50px;
+
+}
+#navbar h5{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
